@@ -85,12 +85,15 @@
 			<dependency>
 				<groupId>es.gob.afirma.lib</groupId>
 				<artifactId>afirma-lib-itext</artifactId>
+				<scope>system</scope>
+				<systemPath>/PATH_TO/clienteafirma-external/afirma-lib-itext/target/afirma-lib-itext-1.6.jar</systemPath>
 				<version>${afirma.lib.itex.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>es.gob.afirma.lib</groupId>
 				<artifactId>afirma-lib-jmimemagic</artifactId>
+
 				<version>0.0.7</version>
 			</dependency>
 			
